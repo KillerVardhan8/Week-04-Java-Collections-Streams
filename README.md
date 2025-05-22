@@ -1,52 +1,103 @@
-# Week 4: Maps, File Handling, and Streams in Java
+# Week-04-Java-Collections-Streams
 
-Welcome to the repository for Week 4 of our Java learning journey. This week focused on Map data structures, reading/writing files, and working with Java streams for data manipulation.
+Welcome to the repository for Week 4 of our Java learning journey. This week focused on core Java concepts including Generics, Collections, IO Streams, Exception handling, Regular Expressions, JUnit testing, and Java 8 features.
 
 ## Table of Contents
 - [Overview](#overview)
-- [Topics Covered](#topics-covered)
-  - [Day 1: Map Interface - HashMap, LinkedHashMap, TreeMap](#day-1-map-interface---hashmap-linkedhashmap-treemap)
-  - [Day 2: File Input and Output](#day-2-file-input-and-output)
-  - [Day 3: Serialization and Deserialization](#day-3-serialization-and-deserialization)
-  - [Day 4: Java Streams Introduction](#day-4-java-streams-introduction)
-  - [Day 5: Stream Operations (Filter, Map, Reduce)](#day-5-stream-operations-filter-map-reduce)
-  - [Day 6: Working with Files using Streams](#day-6-working-with-files-using-streams)
+- [Day 1: Java Generics](#day-1-java-generics)
+- [Day 2: Collections](#day-2-collections)
+- [Day 3: Java IO Streams](#day-3-java-io-streams)
+- [Day 4: Exceptions](#day-4-exceptions)
+- [Day 5: Regex & JUnit](#day-5-regex--junit)
+- [Day 6: Java 8 Features](#day-6-java-8-features)
 - [Prerequisites](#prerequisites)
 - [How to Use This Repository](#how-to-use-this-repository)
 
+---
+
 ## Overview
-This week introduced important tools and techniques for handling key-value data, persistent storage using files, and performing efficient data transformations using the Java Stream API.
 
-## Topics Covered
+This week introduces and expands on vital Java programming tools and techniques that form the backbone of robust, efficient applications. The focus lies on type-safe programming with generics, effective data storage and manipulation using collections, handling input and output through streams, managing runtime errors, pattern matching with regular expressions, unit testing, and modern Java features introduced in Java 8.
 
-### Day 1: Map Interface - HashMap, LinkedHashMap, TreeMap
-- Storing key-value pairs  
-- Ordering and sorting maps  
-- Custom key comparators  
+---
 
-### Day 2: File Input and Output
-- Reading and writing text files using `FileReader` and `FileWriter`  
-- Buffered I/O for efficiency  
+## Day 1: Java Generics
 
-### Day 3: Serialization and Deserialization
-- Saving objects to files  
-- Restoring objects using `ObjectInputStream` and `ObjectOutputStream`  
+- Understanding type parameters and generic classes/methods  
+- Benefits of type safety and code reuse  
+- Implementing generic interfaces and bounds  
+- Using wildcards for flexible method parameters  
+- Common use cases and pitfalls  
 
-### Day 4: Java Streams Introduction
-- Streams vs. Collections  
-- Lazy vs. eager evaluation  
+---
 
-### Day 5: Stream Operations (Filter, Map, Reduce)
-- Functional interfaces  
-- Processing collections with streams  
+## Day 2: Collections
 
-### Day 6: Working with Files using Streams
-- Reading CSV and text files using streams  
-- Collecting and grouping data  
+- Overview of Java Collection Framework interfaces and implementations  
+- Differences between List, Set, and Map  
+- Working with HashMap, LinkedHashMap, and TreeMap  
+- Sorting, searching, and iteration techniques  
+- Using Collections utility methods  
+
+---
+
+## Day 3: Java IO Streams
+
+- Reading and writing data using byte and character streams  
+- Buffered streams for performance improvements  
+- Object serialization and deserialization  
+- Working with file input/output  
+- Handling file-related exceptions  
+
+---
+
+## Day 4: Exceptions
+
+- Checked vs unchecked exceptions  
+- Creating custom exceptions  
+- Exception handling best practices using try-catch-finally  
+- Using try-with-resources for automatic resource management  
+- Propagating exceptions and multi-catch blocks  
+
+---
+
+## Day 5: Regex & JUnit
+
+- Writing and applying regular expressions for pattern matching  
+- Common regex constructs and usage in Java  
+- Unit testing fundamentals using JUnit framework  
+- Writing test cases, assertions, and test lifecycle annotations  
+- Parameterized tests and test suites  
+
+---
+
+## Day 6: Java 8 Features
+
+- Introduction to Lambda expressions and functional interfaces  
+- Stream API for data processing (filter, map, reduce)  
+- Method references and default methods in interfaces  
+- Optional class to handle nullability  
+- Date and Time API enhancements  
+
+---
 
 ## Prerequisites
-- Core Java, Collections, and Exception handling (Weeks 1–3)  
-- JDK and IDE setup  
+
+- Core Java fundamentals  
+- Familiarity with object-oriented programming  
+- Basic understanding of exception handling  
+- JDK 8 or higher installed  
+- IDE such as IntelliJ IDEA, Eclipse, or VS Code  
+
+---
 
 ## How to Use This Repository
-Each day’s folder contains focused examples and practice programs. Experiment with file I/O and streams using the provided templates.
+
+Each day’s folder contains focused examples and practice programs related to that day’s topic. You can:
+
+1. Navigate to the folder corresponding to the day you want to explore.  
+2. Review the source code and accompanying resources.  
+3. Run the main classes to observe the functionality.  
+4. Experiment with modifying and extending the examples for better understanding.
+
+---
